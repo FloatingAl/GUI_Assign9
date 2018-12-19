@@ -1,0 +1,56 @@
+body{
+    background-color: grey;
+}
+
+.letterTile {
+    max-width: 70px;
+    margin-left: 10px;
+    margin-top:10px;
+}
+
+.wrapper {
+    margin: 200px auto 20px auto;
+    max-width:800px;
+    height: 800px;
+    text-align: center;
+    margin: auto;
+    border-style: solid;
+    border-width: 10px;
+    background-color: white
+}
+
+#board {
+    max-width:600px;
+    margin: 0px auto;
+}
+
+#rack {
+    max-width:600px;
+    height: 100px;
+    margin: 200px auto 20px auto;
+    background-image: url("holder.png");
+}
+#score, #hScore {
+    display: inline;
+    margin: 200px auto 20px auto;
+    max-width:600px;
+    color: red;
+    
+}
+
+
+.label{
+    color:darkblue;
+    margin-top: 10px; 
+    font-weight: bold;
+}
+
+
+header, h2{
+    background-color: rgb(22, 201, 224);
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    font-family: Georgia, serif;
+    font-size: 30px;
+}
